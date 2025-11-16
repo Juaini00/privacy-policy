@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Privacy Policy - WhatsApp API</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <style>
+            :root{--bg:#f6f8fb;--card:#ffffff;--muted:#6b7280;--accent:#0b69ff;--maxw:1000px}
+            *{box-sizing:border-box}
+            body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#0b1220;margin:0;line-height:1.6}
+            header{background:linear-gradient(90deg,#0b69ff 0%,#3b82f6 100%);color:#fff;padding:40px 20px}
+            .container{max-width:var(--maxw);margin:0 auto;padding:24px}
+            .hero{display:flex;gap:20px;align-items:center;justify-content:space-between}
+            .hero h1{margin:0;font-size:28px;font-weight:600}
+            .hero p{margin:6px 0 0;color:rgba(255,255,255,0.92)}
+            .card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 6px 18px rgba(11,17,32,0.06)}
+            nav.toc{position:sticky;top:20px;padding:16px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfdff);max-height:70vh;overflow:auto}
+            .layout{display:grid;grid-template-columns:260px 1fr;gap:20px;margin-top:20px}
+            .toc a{display:block;padding:8px 6px;color:var(--accent);text-decoration:none;border-left:3px solid transparent}
+            .toc a:hover{background:#f1f8ff;border-left-color:var(--accent)}
+            h2{margin-top:0}
+            .meta{display:flex;gap:12px;align-items:center}
+            .btn{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;color:#fff;background:var(--accent);font-weight:600}
+            .muted{color:var(--muted)}
+            footer{margin-top:36px;padding:20px 0;color:var(--muted);font-size:13px}
+            pre.note{background:#f8fafc;padding:12px;border-radius:8px;color:#111;font-size:14px;overflow:auto}
+            @media (max-width:900px){
+                .layout{grid-template-columns:1fr;}
+                nav.toc{position:relative;max-height:none}
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container hero">
+                <div>
+                    <h1>Privacy Policy</h1>
+                    <p>Untuk penggunaan WhatsApp API — kebijakan privasi ini menjelaskan data yang kami kumpulkan dan bagaimana kami menggunakannya.</p>
+                </div>
+                <div class="meta">
+                    <a class="btn" href="#contact">Hubungi Kami</a>
+                    <a class="btn" href="#print" id="printBtn">Cetak / Simpan</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="container" style="padding-bottom:40px">
+            <div class="layout">
+                <aside>
+                    <nav class="toc card">
+                        <strong>Ringkasan</strong>
+                        <a href="#intro">Pendahuluan</a>
+                        <a href="#controller">Pengendali Data</a>
+                        <a href="#data-collected">Data yang Dikumpulkan</a>
+                        <a href="#how-collected">Bagaimana Data Dikumpulkan</a>
+                        <a href="#purpose">Tujuan Penggunaan</a>
+                        <a href="#legal-basis">Dasar Hukum</a>
+                        <a href="#third-parties">Pihak Ketiga</a>
+                        <a href="#retention">Retensi Data</a>
+                        <a href="#security">Keamanan</a>
+                        <a href="#rights">Hak Pengguna</a>
+                        <a href="#cookies">Cookies & Tracking</a>
+                        <a href="#transfers">Transfer Data</a>
+                        <a href="#children">Anak-anak</a>
+                        <a href="#changes">Perubahan</a>
+                        <a href="#contact">Kontak</a>
+                    </nav>
+                </aside>
+
+                <section>
+                    <article class="card">
+                        <h2 id="intro">1. Pendahuluan</h2>
+                        <p>Kami menghormati privasi Anda dan berkomitmen untuk melindungi data pribadi yang Anda berikan. Kebijakan ini menjelaskan bagaimana <strong>[NAMA PERUSAHAAN]</strong> menggunakan data saat menyediakan layanan yang terintegrasi dengan WhatsApp Business API (selanjutnya disebut "WhatsApp API").</p>
+
+                        <h2 id="controller">2. Pengendali Data</h2>
+                        <p>Pengendali data untuk layanan ini adalah: <strong>[NAMA PERUSAHAAN]</strong>.<br>
+                        Jika ingin mengajukan pertanyaan atau permintaan terkait data pribadi, hubungi: <a href="mailto:privacy@company.example">privacy@company.example</a> (silakan ganti dengan email Anda).</p>
+
+                        <h2 id="data-collected">3. Data yang Dikumpulkan</h2>
+                        <p>Kami dapat mengumpulkan dan memproses jenis data pribadi berikut ketika Anda berinteraksi melalui WhatsApp API:</p>
+                        <ul>
+                            <li><strong>Nomor telepon</strong> — identitas utama pengguna di WhatsApp.</li>
+                            <li><strong>Isi pesan</strong> — teks pesan, template, balasan, instruksi, dan metadata pesan.</li>
+                            <li><strong>Media</strong> — foto, video, dokumen, audio yang dikirimkan atau diterima melalui percakapan.</li>
+                            <li><strong>Metadata percakapan</strong> — timestamp, status pengiriman (terkirim/terbaca), ID pesan, dan durasi sesi.</li>
+                            <li><strong>Log teknis</strong> — alamat IP, jenis perangkat, aktivitas API (untuk keamanan dan diagnosis).</li>
+                            <li><strong>Data tambahan</strong> yang Anda berikan secara sukarela (mis. nama, alamat, nomor pesanan).</li>
+                        </ul>
+
+                        <h2 id="how-collected">4. Bagaimana Data Dikumpulkan</h2>
+                        <p>Kami memperoleh data dari beberapa sumber:</p>
+                        <ul>
+                            <li>Langsung dari Anda ketika Anda mengirim pesan melalui WhatsApp.</li>
+                            <li>Dari penyedia WhatsApp Business API (mis. Meta/mitra penyedia) yang meneruskan pesan dan metadata.</li>
+                            <li>Dari layanan pihak ketiga (mis. penyimpanan file, analytics) jika Anda mengunggah media atau berinteraksi dengan fitur terkait.</li>
+                        </ul>
+
+                        <h2 id="purpose">5. Tujuan Penggunaan Data</h2>
+                        <p>Kami memproses data untuk tujuan-tujuan berikut:</p>
+                        <ul>
+                            <li>Menangani komunikasi dan permintaan layanan pelanggan melalui WhatsApp.</li>
+                            <li>Mengelola pengiriman pesan dan notifikasi yang Anda setujui (mis. status pesanan, pengingat).</li>
+                            <li>Meningkatkan kualitas layanan, diagnosis teknis, dan pemecahan masalah.</li>
+                            <li>Mendeteksi dan mencegah penipuan, penyalahgunaan, dan insiden keamanan.</li>
+                            <li>Memenuhi kewajiban hukum dan audit bila diperlukan.</li>
+                        </ul>
+
+                        <h2 id="legal-basis">6. Dasar Hukum Pemrosesan</h2>
+                        <p>Jika Anda berada di wilayah yang mengatur privasi (mis. EEA), dasar hukum untuk memproses data dapat mencakup:</p>
+                        <ul>
+                            <li><strong>Persetujuan</strong> — untuk komunikasi pemasaran bila Anda memberikan persetujuan eksplisit.</li>
+                            <li><strong>Kontrak</strong> — untuk menyediakan layanan yang Anda minta (mis. notifikasi pesanan).</li>
+                            <li><strong>Kepentingan sah</strong> — untuk keamanan, pencegahan kecurangan, dan operasional layanan.</li>
+                            <li><strong>Kewajiban hukum</strong> — untuk mematuhi peraturan atau proses hukum.</li>
+                        </ul>
+
+                        <h2 id="third-parties">7. Pihak Ketiga dan Penyedia Layanan</h2>
+                        <p>Kami dapat membagikan data dengan pihak ketiga terbatas untuk mendukung layanan, antara lain:</p>
+                        <ul>
+                            <li>Penyedia WhatsApp Business API (mis. Meta atau mitra resmi) yang meneruskan pesan dan metadata.</li>
+                            <li>Penyedia hosting dan penyimpanan (cloud) untuk menyimpan backup atau media.</li>
+                            <li>Penyedia analitik dan logging untuk pemantauan kinerja dan keamanan.</li>
+                            <li>Pihak hukum dan regulator bila diwajibkan oleh hukum.</li>
+                        </ul>
+                        <p>Kami hanya bekerja sama dengan pihak ketiga yang menerapkan langkah-langkah teknis dan organisasi yang sesuai untuk melindungi data.</p>
+
+                        <h2 id="retention">8. Retensi Data</h2>
+                        <p>Kami menyimpan data selama diperlukan untuk tujuan yang dijelaskan di sini, kecuali ada kewajiban hukum yang mengatur jangka waktu lebih lama. Contoh retensi umum:</p>
+                        <ul>
+                            <li>Log teknis dan keamanan: 6–24 bulan.</li>
+                            <li>Riwayat percakapan non-arsip: hingga 12 bulan (atau sesuai kesepakatan layanan).</li>
+                            <li>Informasi terkait transaksi: sesuai persyaratan akuntansi dan hukum setempat (biasanya 5–7 tahun).</li>
+                        </ul>
+
+                        <h2 id="security">9. Keamanan Data</h2>
+                        <p>Kami menerapkan kontrol keamanan yang sesuai, termasuk enkripsi saat transit, kontrol akses berbasis peran, dan audit log. Namun, tidak ada sistem yang sepenuhnya kebal terhadap risiko — jika terjadi pelanggaran, kami akan memberi tahu pihak yang terkena dampak dan otoritas sesuai peraturan yang berlaku.</p>
+
+                        <h2 id="rights">10. Hak Pengguna</h2>
+                        <p>Tergantung pada yurisdiksi Anda, Anda dapat memiliki hak sebagai berikut terkait data pribadi Anda:</p>
+                        <ul>
+                            <li>Hak untuk mengakses data yang kami miliki tentang Anda.</li>
+                            <li>Hak untuk meminta koreksi data yang keliru.</li>
+                            <li>Hak untuk menghapus data (hak dilupakan) dalam batas yang diizinkan oleh hukum.</li>
+                            <li>Hak untuk membatasi atau menolak pemrosesan tertentu.</li>
+                            <li>Hak portabilitas data — menerima salinan data dalam format yang umum digunakan.</li>
+                            <li>Hak untuk mencabut persetujuan kapan saja (tanpa mempengaruhi pemrosesan sebelumnya).</li>
+                        </ul>
+                        <p>Untuk menggunakan hak-hak ini, hubungi: <a href="mailto:privacy@company.example">privacy@company.example</a>.</p>
+
+                        <h2 id="cookies">11. Cookies & Tracking</h2>
+                        <p>Jika Anda mengakses komponen web kami (mis. dashboard), kami mungkin menggunakan cookies dan alat pelacakan untuk fungsionalitas dan analitik. Anda dapat mengelola preferensi cookie melalui pengaturan browser Anda.</p>
+
+                        <h2 id="transfers">12. Transfer Data Internasional</h2>
+                        <p>Data yang diproses dapat ditransfer ke atau diakses dari negara lain termasuk negara di luar wilayah hukum Anda. Kami memastikan transfer tersebut dilakukan dengan dasar hukum yang tepat (mis. mekanisme perlindungan yang disetujui, klausul kontrak standar) bila diperlukan.</p>
+
+                        <h2 id="children">13. Anak-anak</h2>
+                        <p>Layanan kami tidak ditujukan untuk anak di bawah usia 13/16 tahun (tergantung yurisdiksi). Kami tidak secara sengaja mengumpulkan data dari anak-anak. Jika ketahuan, data akan dihapus segera setelah diberitahukan.</p>
+
+                        <h2 id="automated">14. Keputusan Otomatis & Profiling</h2>
+                        <p>Kami tidak melakukan pengambilan keputusan otomatis yang berakibat hukum tanpa campur tangan manusia. Bila kami menggunakan profiling untuk tujuan peningkatan layanan, kami akan menjelaskan dampak dan pilihan Anda bila berlaku.</p>
+
+                        <h2 id="breach">15. Pemberitahuan Pelanggaran Data</h2>
+                        <p>Jika terjadi pelanggaran keamanan yang menimbulkan risiko tinggi bagi hak dan kebebasan individu, kami akan memberitahu otoritas perlindungan data dan pihak yang terkena dampak sesuai dengan kewajiban hukum yang berlaku.</p>
+
+                        <h2 id="changes">16. Perubahan pada Kebijakan Ini</h2>
+                        <p>Kami dapat memperbarui kebijakan ini. Perubahan penting akan diberitahukan melalui channel yang sesuai (mis. email, notifikasi dalam aplikasi). Tanggal efektif kebijakan ini tercantum di bagian bawah.</p>
+
+                        <h2 id="contact">17. Kontak</h2>
+                        <p>Jika ada pertanyaan, keluhan, atau permintaan data, hubungi kami di:<br>
+                        <strong>[NAMA PERUSAHAAN]</strong><br>
+                        Email: <a href="mailto:privacy@company.example">privacy@company.example</a><br>
+                        Alamat: [ALAMAT PERUSAHAAN] (opsional)</p>
+
+                        <h2 id="print">Tanggal Efektif</h2>
+                        <p class="muted">Kebijakan ini efektif sejak: <strong>16 November 2025</strong></p>
+
+                        <hr>
+                        <p class="muted" style="font-size:13px">Catatan teknis: Saat menggunakan WhatsApp API, beberapa data (mis. nomor telepon, ID pesan, waktu) dikelola oleh penyedia WhatsApp. Pastikan Anda membaca juga kebijakan privasi penyedia WhatsApp yang digunakan.</p>
+                    </article>
+                </section>
+            </div>
+
+            <footer class="container">
+                <div class="muted">Dokumen ini dibuat untuk membantu Anda menyiapkan Privacy Policy untuk integrasi WhatsApp API. Silakan sesuaikan nama perusahaan, alamat, dan alamat email kontak sebelum dipublikasikan.</div>
+            </footer>
+        </main>
+
+        <script>
+            // Print button
+            document.getElementById('printBtn')?.addEventListener('click', function(e){
+                e.preventDefault();
+                window.print();
+            });
+            // Smooth scrolling for TOC links
+            document.querySelectorAll('nav.toc a').forEach(function(a){
+                a.addEventListener('click', function(e){
+                    e.preventDefault();
+                    var id = this.getAttribute('href').slice(1);
+                    var el = document.getElementById(id);
+                    if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+                });
+            });
+        </script>
+    </body>
+</html>
